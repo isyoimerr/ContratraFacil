@@ -1,0 +1,1357 @@
+.cf-landing-admin {
+    border: 0;
+    background: none;
+    margin-left: -8px;
+    color: #425268;
+    font-weight: 750;
+    cursor: pointer
+}
+
+.cf-final-flow {
+    border: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background: none;
+    color: white;
+    cursor: pointer
+}
+
+.cf-client-page,
+.cf-admin {
+    min-height: 100vh;
+    background: #f7f8f6
+}
+
+.cf-admin-header {
+    min-height: 68px;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 24px;
+    background: #fff;
+}
+
+.cf-admin-header>div {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.cf-admin-header>div>small {
+    color: #68758a;
+    border-left: 1px solid #dde3e7;
+    padding-left: 12px
+}
+
+.cf-brand-button {
+    border: 0;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #13263d;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.cf-brand-button span {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    display: grid;
+    place-items: center;
+    background: #13263d;
+    color: #fff;
+    font-size: 12px
+}
+
+.cf-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.cf-header-actions .text-link {
+    border: 0;
+    background: none;
+    cursor: pointer;
+    color: #425268
+}
+
+.cf-client-container {
+    max-width: 920px;
+    padding: 24px 0 40px
+}
+
+.cf-client-flow {
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(16, 38, 63, .08)
+}
+
+.cf-flow-step:focus,
+.cf-admin-detail:focus {
+    outline: none;
+}
+
+.cf-steps {
+    background: #fbfcfb
+}
+
+.cf-steps>li {
+    height: 56px
+}
+
+.cf-steps span {
+    width: 26px;
+    height: 26px
+}
+
+.cf-steps small {
+    font-size: 13px
+}
+
+.cf-flow-step {
+    padding: 28px 32px 32px
+}
+
+.cf-step-heading {
+    margin-bottom: 16px
+}
+
+.cf-step-heading h2 {
+    font-size: 34px;
+    line-height: 1.08;
+    letter-spacing: -1.2px
+}
+
+.cf-step-heading>p:last-child {
+    font-size: 14px;
+    line-height: 1.55
+}
+
+.cf-service-choice {
+    gap: 8px
+}
+
+.cf-service-choice button {
+    min-height: 82px;
+    padding: 14px 16px;
+    border-radius: 9px;
+    transition: border-color .16s ease, background .16s ease, box-shadow .16s ease
+}
+
+.cf-service-choice button:hover {
+    border-color: #8daabd;
+    background: #fafcfc
+}
+
+.cf-service-choice button:focus-visible,
+.cf-advice-options button:focus-visible,
+.cf-admin-list button:focus-visible,
+.cf-track-form input:focus-visible,
+.cf-form-grid select:focus-visible,
+.cf-form-grid textarea:focus-visible,
+.cf-advice-details select:focus-visible,
+.cf-advice-details textarea:focus-visible,
+.cf-advice-details input:focus-visible {
+    outline: 3px solid rgba(44, 111, 159, .24);
+    outline-offset: 2px
+}
+
+.cf-service-choice button div {
+    gap: 3px
+}
+
+.cf-service-choice button b {
+    font-size: 15px
+}
+
+.cf-service-choice button small {
+    font-size: 13px;
+    line-height: 1.35
+}
+
+.cf-next {
+    min-height: 46px;
+    margin-top: 12px
+}
+
+.cf-form-grid,
+.cf-advice-details {
+    gap: 12px
+}
+
+.cf-form-grid label,
+.cf-advice-details label {
+    font-size: 13px
+}
+
+.cf-form-grid select,
+.cf-advice-details select {
+    height: 46px
+}
+
+.cf-advice-section {
+    margin-top: 14px
+}
+
+.cf-advice-options button {
+    min-height: 78px
+}
+
+.cf-advice-options button span {
+    font-size: 14px;
+    font-weight: 800
+}
+
+.cf-advice-options button small {
+    font-size: 12px;
+    line-height: 1.4
+}
+
+.cf-actions {
+    margin-top: 16px
+}
+
+.cf-actions .button {
+    min-height: 46px
+}
+
+.cf-error,
+.cf-warning {
+    line-height: 1.45
+}
+
+.cf-advice-quote,
+.cf-confirm-summary {
+    border-radius: 9px
+}
+
+.cf-advice-quote>div,
+.cf-confirm-summary>div {
+    min-height: 68px
+}
+
+.cf-admin-header {
+    box-shadow: 0 1px 0 rgba(16, 38, 63, .06)
+}
+
+.cf-request-list button {
+    min-height: 82px
+}
+
+.cf-request-list button:hover {
+    background: #f7fafb
+}
+
+.cf-request-list button span,
+.cf-request-list button small {
+    font-size: 11px
+}
+
+.cf-client-container {
+    padding: 32px 0 56px
+}
+
+.cf-client-flow {
+    background: #fff;
+    border: 1px solid #dde3e7;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 18px 44px rgba(16, 38, 63, .07)
+}
+
+.cf-steps {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #dde3e7
+}
+
+.cf-steps>li {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #7b8794;
+    border-right: 1px solid #eef1f2
+}
+
+.cf-steps>li:last-child {
+    border-right: 0
+}
+
+.cf-steps span {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ccd5da;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 11px
+}
+
+.cf-steps small {
+    font-size: 12px;
+    font-weight: 750
+}
+
+.cf-steps .active {
+    color: #1d5d91;
+    background: #f5f8f9
+}
+
+.cf-steps .active span {
+    border-color: #1d5d91;
+    background: #1d5d91;
+    color: #fff
+}
+
+.cf-flow-step {
+    padding: 36px
+}
+
+.cf-step-heading {
+    margin-bottom: 20px
+}
+
+.cf-step-heading h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    line-height: 1.08;
+    letter-spacing: -1.5px;
+    margin: 0 0 8px
+}
+
+.cf-step-heading>p:last-child {
+    color: #69778a;
+    margin: 0;
+    max-width: 650px;
+    line-height: 1.55
+}
+
+.cf-step-heading .eyebrow {
+    margin-bottom: 8px
+}
+
+.cf-service-choice {
+    display: grid;
+    gap: 10px
+}
+
+.cf-service-choice button {
+    width: 100%;
+    border: 1px solid #dde3e7;
+    border-radius: 10px;
+    background: #fff;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 38px 1fr auto;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+    color: #13263d;
+    cursor: pointer
+}
+
+.cf-service-choice button>span {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: #edf3f6;
+    display: grid;
+    place-items: center;
+    color: #1d5d91;
+    font-size: 11px;
+    font-weight: 800
+}
+
+.cf-service-choice button div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.cf-service-choice button small {
+    color: #69778a
+}
+
+.cf-service-choice button strong {
+    font-family: Georgia, serif;
+    font-size: 20px
+}
+
+.cf-service-choice button.selected {
+    border-color: #1d5d91;
+    box-shadow: inset 3px 0 #1d5d91;
+    background: #f7fafb
+}
+
+.cf-next {
+    width: 100%;
+    margin-top: 16px
+}
+
+.cf-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px
+}
+
+.cf-form-grid label {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 12px;
+    font-weight: 800
+}
+
+.cf-form-grid select,
+.cf-form-grid textarea {
+    width: 100%;
+    border: 1px solid #ccd5da;
+    border-radius: 8px;
+    padding: 10px 12px;
+    background: #fff;
+    color: #13263d
+}
+
+.cf-form-grid select {
+    height: 44px
+}
+
+.cf-error,
+.cf-warning {
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 13px
+}
+
+.cf-error {
+    background: #fff0f0;
+    color: #9a3535
+}
+
+.cf-warning {
+    background: #eef3f5;
+    color: #52677a;
+    border-left: 3px solid #1d5d91
+}
+
+.cf-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px
+}
+
+.cf-classification {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px;
+    border: 1px solid #d9e5e7;
+    border-radius: 10px;
+    background: #f7faf9
+}
+
+.cf-classification>span,
+.cf-confirm-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    flex: none;
+    background: #dcece4;
+    color: #28704d;
+    font-weight: 800
+}
+
+.cf-classification div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px
+}
+
+.cf-classification strong {
+    font-size: 20px
+}
+
+.cf-classification p {
+    margin: 4px 0 0;
+    color: #69778a
+}
+
+.cf-quote {
+    display: grid;
+    grid-template-columns: 1fr 230px;
+    border: 1px solid #dde3e7;
+    border-radius: 12px;
+    overflow: hidden
+}
+
+.cf-quote-main {
+    padding: 22px
+}
+
+.cf-quote-main small,
+.cf-price small {
+    color: #7b8794
+}
+
+.cf-quote-main h3 {
+    font-size: 24px;
+    margin: 8px 0
+}
+
+.cf-quote-main p {
+    color: #69778a;
+    margin: 0;
+    line-height: 1.55
+}
+
+.cf-price {
+    background: #edf3f6;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.cf-price strong {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    color: #13263d
+}
+
+.cf-price span {
+    font-size: 11px;
+    color: #68758a
+}
+
+.cf-quote-conditions {
+    margin-top: 12px;
+    padding: 16px;
+    border-radius: 8px;
+    background: #f7f8f6
+}
+
+.cf-quote-conditions ul {
+    margin: 8px 0 0;
+    padding-left: 18px;
+    color: #59677a
+}
+
+.cf-confirm-summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid #dde3e7;
+    border-radius: 10px
+}
+
+.cf-confirm-summary>div {
+    padding: 14px;
+    border-right: 1px solid #dde3e7;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.cf-confirm-summary>div:last-child {
+    border-right: 0
+}
+
+.cf-confirm-summary span,
+.cf-confirm-summary small {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    color: #7b8794
+}
+
+.cf-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    margin-top: 14px;
+    color: #59677a;
+    font-size: 13px
+}
+
+.cf-consent input {
+    margin-top: 2px
+}
+
+.cf-confirmed {
+    text-align: center
+}
+
+.cf-confirmed .cf-confirm-icon {
+    margin: 0 auto 12px
+}
+
+.cf-confirmed h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin: 4px 0 8px
+}
+
+.cf-confirmed>p:not(.eyebrow) {
+    color: #69778a
+}
+
+.cf-code {
+    width: 180px;
+    margin: 18px auto;
+    padding: 12px;
+    border: 1px solid #dde3e7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column
+}
+
+.cf-code small {
+    color: #7b8794
+}
+
+.cf-code strong {
+    font-size: 20px
+}
+
+.cf-actions-center {
+    justify-content: center
+}
+
+.cf-progress {
+    list-style: none;
+    margin: 18px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0
+}
+
+.cf-progress li {
+    position: relative;
+    text-align: center;
+    color: #98a2ac
+}
+
+.cf-progress li:before {
+    content: '';
+    position: absolute;
+    left: -50%;
+    right: 50%;
+    top: 15px;
+    height: 2px;
+    background: #dde3e7
+}
+
+.cf-progress li:first-child:before {
+    display: none
+}
+
+.cf-progress li.active:before {
+    background: #1d5d91
+}
+
+.cf-progress li span {
+    position: relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 6px;
+    background: #edf1f2;
+    color: #7b8794;
+    font-size: 11px
+}
+
+.cf-progress li.active span {
+    background: #1d5d91;
+    color: #fff
+}
+
+.cf-progress li small {
+    display: block;
+    font-size: 11px;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+    color: #566778
+}
+
+.cf-track-form {
+    border: 1px solid #dde3e7;
+    border-radius: 10px;
+    padding: 14px
+}
+
+.cf-track-form label {
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 7px
+}
+
+.cf-track-form>div {
+    display: flex;
+    gap: 8px
+}
+
+.cf-track-form input {
+    flex: 1;
+    min-width: 0;
+    height: 46px;
+    border: 1px solid #ccd5da;
+    border-radius: 8px;
+    padding: 0 12px
+}
+
+.cf-track-result {
+    margin-top: 14px
+}
+
+.cf-track-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px
+}
+
+.cf-track-title div {
+    display: flex;
+    flex-direction: column
+}
+
+.cf-track-title small {
+    color: #7b8794
+}
+
+.cf-track-title>span {
+    background: #edf3f6;
+    color: #1d5d91;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 800
+}
+
+.cf-back-link {
+    border: 0;
+    background: none;
+    margin-top: 16px;
+    cursor: pointer;
+    color: #1d5d91
+}
+
+.cf-admin {
+    background: #eef2f2
+}
+
+.cf-admin-shell {
+    height: calc(100dvh - 68px);
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr)
+}
+
+.cf-admin-list {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-right: 1px solid #dde3e7;
+    overflow: hidden
+}
+
+.cf-admin-list-head {
+    padding: 18px;
+    border-bottom: 1px solid #dde3e7
+}
+
+.cf-admin-list-head>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.cf-admin-list-head p {
+    margin: 0;
+    font-weight: 800
+}
+
+.cf-admin-list-head b {
+    background: #edf3f6;
+    border-radius: 20px;
+    padding: 4px 8px;
+    font-size: 11px
+}
+
+.cf-admin-list-head input {
+    width: 100%;
+    height: 40px;
+    margin-top: 12px;
+    border: 1px solid #ccd5da;
+    border-radius: 7px;
+    padding: 0 10px
+}
+
+.cf-request-list {
+    overflow: auto
+}
+
+.cf-request-list > p {
+    padding-inline: 18px;
+    color: #566778;
+}
+
+.cf-request-list button {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #eef1f2;
+    background: #fff;
+    padding: 14px 18px;
+    text-align: left;
+    cursor: pointer;
+    color: #13263d
+}
+
+.cf-request-list button.selected {
+    background: #edf3f6;
+    box-shadow: inset 3px 0 #1d5d91
+}
+
+.cf-request-list button div {
+    display: flex;
+    justify-content: space-between
+}
+
+.cf-request-list button span {
+    font-size: 10px;
+    color: #1d5d91
+}
+
+.cf-request-list button strong,
+.cf-request-list button small {
+    display: block
+}
+
+.cf-request-list button strong {
+    font-size: 13px;
+    margin-top: 6px
+}
+
+.cf-request-list button small {
+    color: #7b8794;
+    margin-top: 3px
+}
+
+.cf-admin-detail {
+    overflow: auto;
+    padding: 28px 32px
+}
+
+.cf-detail-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.cf-detail-head p {
+    margin: 0 0 4px;
+    color: #68758a;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .8px
+}
+
+.cf-detail-head h1 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin: 0
+}
+
+.cf-status {
+    border-radius: 20px;
+    padding: 8px 11px;
+    background: #edf3f6;
+    color: #1d5d91;
+    font-size: 11px;
+    font-weight: 800
+}
+
+.cf-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: 12px;
+    margin-top: 18px
+}
+
+.cf-detail-grid article {
+    background: #fff;
+    border: 1px solid #dde3e7;
+    border-radius: 10px;
+    padding: 18px;
+    overflow-wrap: anywhere
+}
+
+.cf-detail-grid small {
+    color: #7b8794
+}
+
+.cf-detail-grid h2 {
+    font-size: 20px;
+    margin: 7px 0
+}
+
+.cf-detail-grid p {
+    margin: 0;
+    color: #69778a
+}
+
+.cf-detail-section {
+    background: #fff;
+    border: 1px solid #dde3e7;
+    border-radius: 10px;
+    padding: 18px;
+    margin-top: 12px
+}
+
+.cf-detail-section h3 {
+    margin: 0
+}
+
+.cf-detail-title {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center
+}
+
+.cf-detail-title label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px
+}
+
+.cf-detail-title select {
+    height: 38px;
+    border: 1px solid #ccd5da;
+    border-radius: 7px;
+    padding: 0 8px
+}
+
+.cf-detail-section dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 16px;
+    margin: 12px 0 0
+}
+
+.cf-detail-section dl div {
+    border-top: 1px solid #eef1f2;
+    padding-top: 8px
+}
+
+.cf-detail-section dt {
+    font-size: 10px;
+    color: #7b8794
+}
+
+.cf-detail-section dd {
+    margin: 3px 0 0;
+    font-size: 13px
+}
+
+.cf-delivery {
+    margin-top: 12px;
+    border-radius: 10px;
+    background: #173653;
+    color: #fff;
+    padding: 16px 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center
+}
+
+.cf-delivery p {
+    margin: 4px 0 0;
+    color: #d0dde6;
+    font-size: 12px
+}
+
+.cf-delivery>div:last-child {
+    display: flex;
+    gap: 8px
+}
+
+.cf-delivery .button-secondary {
+    background: transparent;
+    color: #fff;
+    border-color: #637b90
+}
+
+.cf-advice-section {
+    margin-top: 16px;
+    padding: 16px;
+    border: 1px solid #dde3e7;
+    border-radius: 10px;
+    background: #f8faf9
+}
+
+.cf-advice-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-start
+}
+
+.cf-advice-heading h3 {
+    margin: 0;
+    font-size: 17px
+}
+
+.cf-advice-heading>p {
+    max-width: 410px;
+    margin: 0;
+    color: #69778a;
+    font-size: 12px;
+    line-height: 1.5
+}
+
+.cf-advice-heading .eyebrow {
+    margin-bottom: 6px
+}
+
+.cf-advice-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 12px
+}
+
+.cf-advice-options button {
+    border: 1px solid #ccd5da;
+    border-radius: 8px;
+    background: #fff;
+    padding: 12px;
+    text-align: left;
+    color: #13263d;
+    cursor: pointer
+}
+
+.cf-advice-options button span,
+.cf-advice-options button small {
+    display: block
+}
+
+.cf-advice-options button small {
+    margin-top: 4px;
+    color: #69778a
+}
+
+.cf-advice-options button.selected {
+    border-color: #1d5d91;
+    box-shadow: inset 3px 0 #1d5d91;
+    background: #edf3f6
+}
+
+.cf-advice-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 12px
+}
+
+.cf-advice-details label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 800
+}
+
+.cf-advice-details select,
+.cf-advice-details textarea,
+.cf-advice-details input {
+    width: 100%;
+    border: 1px solid #ccd5da;
+    border-radius: 7px;
+    background: #fff;
+    color: #13263d;
+    padding: 9px 10px
+}
+
+.cf-advice-details select {
+    min-height: 42px;
+    overflow-wrap: anywhere
+}
+
+.cf-advice-note {
+    grid-column: 1/-1;
+    margin: 0;
+    color: #68758a;
+    font-size: 11px
+}
+
+.cf-advice-quote {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 12px
+}
+
+.cf-advice-quote>div {
+    border: 1px solid #dde3e7;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.cf-advice-quote small {
+    color: #7b8794
+}
+
+.cf-advice-quote b {
+    font-size: 12px
+}
+
+.cf-advice-admin dl {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important
+}
+
+.cf-advice-admin-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    gap: 10px;
+    align-items: end;
+    margin-top: 12px
+}
+
+.cf-advice-admin-actions label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 800
+}
+
+.cf-advice-admin-actions select,
+.cf-advice-admin-actions input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #ccd5da;
+    border-radius: 7px;
+    padding: 0 10px
+}
+
+.cf-no-advice {
+    margin: 12px 0 0;
+    color: #69778a;
+    font-size: 13px
+}
+
+.mobile-panel-link {
+    min-height: 54px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #dde3e7;
+    background: transparent;
+    color: #13263d;
+    text-align: left;
+    font-weight: 750;
+    padding: 0 16px;
+    cursor: pointer
+}
+
+.mobile-panel-link:focus-visible {
+    outline: 3px solid rgba(44, 111, 159, .24);
+    outline-offset: -3px
+}
+
+@media(max-width:640px) {
+    .mobile-panel-link {
+        min-height: 48px;
+        padding-inline: 14px;
+        font-size: 14px
+    }
+}
+
+@media(max-width:900px) {
+    .cf-landing-admin {
+        display: none
+    }
+
+    .cf-admin-shell {
+        grid-template-columns: 240px minmax(0, 1fr)
+    }
+
+    .cf-detail-grid {
+        grid-template-columns: 1fr
+    }
+
+    .cf-form-grid {
+        gap: 10px
+    }
+
+    .cf-admin-detail {
+        padding: 22px
+    }
+
+    .cf-admin-header {
+        padding-inline: 16px
+    }
+
+    .cf-client-container {
+        max-width: 100%;
+        padding: 16px 0 32px
+    }
+}
+
+@media(max-width:640px) {
+    .cf-admin-shell {
+        height: auto;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .cf-admin-list {
+        max-height: 275px;
+        border-right: 0;
+        border-bottom: 1px solid #dde3e7;
+    }
+
+    .cf-admin-detail {
+        padding: 16px;
+    }
+
+    .cf-form-grid,
+    .cf-advice-details,
+    .cf-advice-quote {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .cf-admin-header>div>small {
+        display: none
+    }
+
+    .cf-client-header {
+        flex-wrap: wrap;
+        gap: 8px;
+        padding-block: 10px;
+    }
+
+    .cf-header-actions {
+        flex-wrap: wrap;
+        column-gap: 14px;
+        row-gap: 4px;
+    }
+
+    .cf-header-actions > a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .cf-client-container {
+        width: calc(100% - 20px) !important;
+        padding: 10px 0 20px
+    }
+
+    .cf-client-flow {
+        border-radius: 11px
+    }
+
+    .cf-steps>li {
+        min-height: 62px;
+        height: auto;
+        flex-direction: column;
+        gap: 4px;
+        padding: 6px 2px;
+        text-align: center;
+    }
+
+    .cf-steps span {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%
+    }
+
+    .cf-steps small {
+        font-size: 10px;
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+
+    .cf-flow-step {
+        padding: 18px 16px 20px
+    }
+
+    .cf-step-heading {
+        margin-bottom: 14px
+    }
+
+    .cf-step-heading h2 {
+        font-size: 28px;
+        letter-spacing: -.8px
+    }
+
+    .cf-step-heading>p:last-child {
+        font-size: 13px
+    }
+
+    .cf-service-choice {
+        gap: 8px
+    }
+
+    .cf-service-choice button {
+        min-height: 76px;
+        grid-template-columns: 32px 1fr;
+        padding: 12px
+    }
+
+    .cf-service-choice button strong {
+        grid-column: 2;
+        justify-self: start;
+        margin-top: 2px;
+        font-size: 16px
+    }
+
+    .cf-advice-options button {
+        min-height: 72px
+    }
+
+    .cf-advice-heading>p {
+        font-size: 12px
+    }
+
+    .cf-actions {
+        gap: 8px;
+        margin-top: 14px;
+    }
+
+    .cf-actions .button {
+        min-height: 44px;
+        font-size: 13px
+    }
+
+    .cf-advice-quote>div {
+        min-height: 58px
+    }
+}

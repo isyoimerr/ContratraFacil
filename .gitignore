@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+*.local
+*.log
+.DS_Store
+*.tsbuildinfo
+
+# Material académico y capturas anteriores conservados en la copia local.
+/.vscode/
+/CONTRATA_FACIL_GUIA_DESARROLLO.md
+/Contrata_Facil_proyecto_corregido.docx
+/Informe_Academico_Contrata_Facil.docx
+/Modelo_Financiero_Contrata_Facil(Supuestos).csv
+/Prototipo_Digital_Presentacion_Video.pdf
+/imgs.zip
+/desktop.png
+/mobile.png
